@@ -1,0 +1,89 @@
+body{
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 208, 78);
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    outline: solid 1px #111111;
+    box-shadow: 8px 8px black ;
+    transition: box-shadow 0.2s ease-in-out;
+    max-width: 382px;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.card:hover{
+    box-shadow: 16px 16px black;
+}
+.main-image{
+    max-width: 336px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.mainimg{
+    min-width: 279px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.category{
+    background-color: rgb(244, 208, 78);
+    font-size: clamp(12px, 3vw, 14px);
+    font-weight: 800;
+    line-height: 150%;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-top: 24px;
+}
+.publishing{
+    font-size: clamp(12px, 3vw, 14px);
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 12px;
+}
+.title{
+    font-size: clamp(20px, 6vw, 24px);
+    font-weight: 800;
+    line-height: 150%;
+    color: #111111;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.card:hover .title{
+    color: rgb(244, 208, 78);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.description{
+    font-size: clamp(14px, 4vw, 16px);
+    font-weight: 500;
+    line-height: 150%;
+    color: #6b6b6b;
+    max-width: 334px;
+    min-width: 279px;
+}
+.author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+}

@@ -6,6 +6,7 @@ body{
     background-color: rgb(244, 208, 78);
     height: 100vh;
     margin: 0;
+    padding: 1.5rem;
 }
 .card{
     display: flex;

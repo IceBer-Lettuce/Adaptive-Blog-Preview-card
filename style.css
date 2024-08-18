@@ -5,6 +5,7 @@ body{
     align-items: center;
     background-color: rgb(244, 208, 78);
     height: 100vh;
+    padding: 0 24px 0 24px;
     margin: 0;
 }
 .card{
@@ -14,7 +15,7 @@ body{
     transition: box-shadow 0.2s ease-in-out;
     max-width: 382px;
     border-radius: 20px;
-    padding: 1.5rem;
+    padding: 24px;
 }
 .card:hover{
     box-shadow: 16px 16px black;
